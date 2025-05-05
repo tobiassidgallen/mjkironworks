@@ -1,0 +1,351 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MJK Iron Works</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Add inside <head> -->
+<style>
+  nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #FFD700;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  section {
+    padding: 4rem 1rem;
+  }
+
+  .about, .services {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 1rem;
+  }
+  footer {
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-family: 'Roboto', sans-serif;
+    }
+    footer a {
+      color: #FFD700;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+  <header>
+    <div data-aos="fade-down">
+      <h1>MJK Iron Works</h1>
+      <p>Custom Metal Fabrication – Fences, Gates, Grills, Railings & More</p>
+    </div>
+  </header>
+
+  <!-- Add right after <header> -->
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- Add a slideshow section with id="home" -->
+<section id="home">
+  <div class="swiper featured-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/FURNITURE2.jpg" alt="Featured 1"></div>
+      <div class="swiper-slide"><img src="images/GATE3.jpg" alt="Featured 2"></div>
+      <div class="swiper-slide"><img src="images/WINDOWGRILLS1.jpg" alt="Featured 3"></div>
+      <div class="swiper-slide"><img src="images/RAILINGS6.jpg" alt="Featured 4"></div>
+      <div class="swiper-slide"><img src="images/GATE21.jpg" alt="Featured 5"></div>
+      <div class="swiper-slide"><img src="images/GATE13.jpg" alt="Featured 6"></div>
+      <div class="swiper-slide"><img src="images/RAILINGS9.jpg" alt="Featured 7"></div>
+      <div class="swiper-slide"><img src="images/WINDOWGRILLS2.jpg" alt="Featured 8"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>  
+  <h2 class="section-title" style="text-align:center">Featured Works</h2>
+  <!-- Example: a large image or swiper slideshow can go here -->
+</section>
+
+<!-- Add About section -->
+<section id="about" class="about" data-aos="fade-down">
+  <h2 class="section-title">About Us</h2>
+  <p>MJK Iron Works is a premier metal fabrication company led by skilled expert Michael Navarette. With years of hands-on experience, we build premium-quality fences, gates, grills, railings, and more.</p>
+  <p>Our mission is to deliver exceptional craftsmanship and durable designs tailored to our clients' needs. We pride ourselves on attention to detail, timely project completion, and unparalleled customer service.</p>
+</section>
+
+<!-- Add Services section -->
+<section id="services" class="services" data-aos="fade-down">
+  <h2 class="section-title">Our Services</h2>
+  <p>We specialize in metal fabrication including:</p>
+  <ul style="text-align:left; max-width: 600px; margin:auto;">
+    <li>✔ Custom Fences and Gates</li>
+    <li>✔ Window Grills</li>
+    <li>✔ Railings and Staircases</li>
+    <li>✔ Metal Furniture</li>
+    <li>✔ Roofing Frames</li>
+    <li>✔ Welding Repairs & Custom Fabrications</li>
+  </ul>
+</section>
+
+<section id="projects" data-aos="fade-down">
+    <h2 class="section-title">Our Projects</h2>
+
+    <!-- Project Category: Gates -->
+    <h3 class="category-title" data-aos="fade-up">Gates</h3>
+    <div class="swiper gates-swiper" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <!-- 28 images -->
+        <!-- Example -->
+        <div class="swiper-slide"><img src="images/GATE1.jpg" alt="Gate 1" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE2.jpg" alt="Gate 2" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE3.jpg" alt="Gate 3" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE4.jpg" alt="Gate 4" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE5.jpg" alt="Gate 5" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE6.jpg" alt="Gate 6" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE7.jpg" alt="Gate 7" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE8.jpg" alt="Gate 8" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE9.jpg" alt="Gate 9" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE10.jpg" alt="Gate 10" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE11.jpg" alt="Gate 11" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE12.jpg" alt="Gate 12" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE13.jpg" alt="Gate 13" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE14.jpg" alt="Gate 14" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE15.jpg" alt="Gate 15" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE16.jpg" alt="Gate 16" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE17.jpg" alt="Gate 17" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE18.jpg" alt="Gate 18" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE19.jpg" alt="Gate 19" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE20.jpg" alt="Gate 20" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE21.jpg" alt="Gate 21" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE22.jpg" alt="Gate 22" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE23.jpg" alt="Gate 23" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE24.jpg" alt="Gate 24" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE25.jpg" alt="Gate 25" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE26.jpg" alt="Gate 26" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE27.jpg" alt="Gate 27" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/GATE28.jpg" alt="Gate 28" loading="lazy"></div>
+        <!-- Repeat up to gate28.jpg -->
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Project Category: Fences -->
+    <h3 class="category-title" data-aos="fade-up">Fences</h3>
+    <div class="swiper fences-swiper" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <!-- 7 images -->
+        <div class="swiper-slide"><img src="images/FENCES1.jpg" alt="Fence 1" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FENCES2.jpg" alt="Fence 2" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FENCES3.jpg" alt="Fence 3" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FENCES4.jpg" alt="Fence 4" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FENCES5.jpg" alt="Fence 5" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FENCES6.jpg" alt="Fence 6" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FENCES7.jpg" alt="Fence 7" loading="lazy"></div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Project Category: Furniture -->
+    <h3 class="category-title" data-aos="fade-up">Furniture</h3>
+    <div class="swiper furniture-swiper" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <!-- 8 images -->
+        <div class="swiper-slide"><img src="images/FURNITURE1.jpg" alt="Furniture 1" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FURNITURE2.jpg" alt="Furniture 2" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FURNITURE3.jpg" alt="Furniture 3" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FURNITURE4.jpg" alt="Furniture 4" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FURNITURE5.jpg" alt="Furniture 5" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FURNITURE6.jpg" alt="Furniture 6" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FURNITURE7.jpg" alt="Furniture 7" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/FURNITURE8.jpg" alt="Furniture 8" loading="lazy"></div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Project Category: Railings -->
+    <h3 class="category-title" data-aos="fade-up">Railings</h3>
+    <div class="swiper railings-swiper" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <!-- 9 images -->
+        <div class="swiper-slide"><img src="images/RAILINGS1.jpg" alt="Railing 1" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/RAILINGS2.jpg" alt="Railing 2" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/RAILINGS3.jpg" alt="Railing 3" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/RAILINGS4.jpg" alt="Railing 4" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/RAILINGS5.jpg" alt="Railing 5" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/RAILINGS6.jpg" alt="Railing 6" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/RAILINGS7.jpg" alt="Railing 7" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/RAILINGS8.jpg" alt="Railing 8" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/RAILINGS9.jpg" alt="Railing 9" loading="lazy"></div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Project Category: Roofs -->
+    <h3 class="category-title" data-aos="fade-up">Roofs</h3>
+    <div class="swiper roofs-swiper" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <!-- 6 images -->
+        <div class="swiper-slide"><img src="images/ROOF1.jpg" alt="Roof 1" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/ROOF2.jpg" alt="Roof 2" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/ROOF3.jpg" alt="Roof 3" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/ROOF4.jpg" alt="Roof 4" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/ROOF5.jpg" alt="Roof 5" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/ROOF6.jpg" alt="Roof 6" loading="lazy"></div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Project Category: Stairs -->
+    <h3 class="category-title" data-aos="fade-up">Stairs</h3>
+    <div class="swiper stairs-swiper" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <!-- 9 images -->
+        <div class="swiper-slide"><img src="images/STAIRS1.jpg" alt="Stair 1" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/STAIRS2.jpg" alt="Stair 2" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/STAIRS3.jpg" alt="Stair 3" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/STAIRS4.jpg" alt="Stair 4" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/STAIRS5.jpg" alt="Stair 5" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/STAIRS6.jpg" alt="Stair 6" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/STAIRS7.jpg" alt="Stair 7" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/STAIRS8.jpg" alt="Stair 8" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/STAIRS9.jpg" alt="Stair 9" loading="lazy"></div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Project Category: Window Grills -->
+    <h3 class="category-title" data-aos="fade-up">Window Grills</h3>
+    <div class="swiper grills-swiper" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <!-- 19 images -->
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS1.jpg" alt="Grill 1" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS2.jpg" alt="Grill 2" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS3.jpg" alt="Grill 3" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS4.jpg" alt="Grill 4" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS5.jpg" alt="Grill 5" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS6.jpg" alt="Grill 6" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS7.jpg" alt="Grill 7" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS8.jpg" alt="Grill 8" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS9.jpg" alt="Grill 9" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS10.jpg" alt="Grill 10" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS11.jpg" alt="Grill 11" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS12.jpg" alt="Grill 12" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS13.jpg" alt="Grill 13" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS14.jpg" alt="Grill 14" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS15.jpg" alt="Grill 15" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS16.jpg" alt="Grill 16" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS17.jpg" alt="Grill 17" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS18.jpg" alt="Grill 18" loading="lazy"></div>
+        <div class="swiper-slide"><img src="images/WINDOWGRILLS19.jpg" alt="Grill 19" loading="lazy"></div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-down">
+    <h3>Contact Us</h3>
+    <p><strong>Location:</strong> Purok 5 Barangay 12 Milagrosa City of Carmona Cavite</p>
+    <p><strong>Phone:</strong> +63 916 999 1710</p>
+    <p><strong>Email:</strong> micnavarette.28@gmail.com</p>
+    <a href="https://www.facebook.com/michaelnavarette11" target="_blank">Contact Us on Facebook</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MJK Iron Works. All rights reserved.</p>
+    <p>Crafted with passion by Michael Navarette and team.</p>
+    <div>
+      <a href="#home">Home</a>|
+      <a href="#about">About</a>|
+      <a href="#services">Services</a>|
+      <a href="#projects">Projects</a>|
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+
+<script>
+  // Featured auto-slideshow
+  const featuredSwiper = new Swiper('.featured-swiper', {
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    speed: 800,
+    effect: 'fade', // or use 'slide' if you prefer horizontal movement
+  });
+
+  // Existing swipers
+  const swiperOptions = {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  };
+
+  new Swiper('.gates-swiper', swiperOptions);
+  new Swiper('.fences-swiper', swiperOptions);
+  new Swiper('.furniture-swiper', swiperOptions);
+  new Swiper('.railings-swiper', swiperOptions);
+  new Swiper('.roofs-swiper', swiperOptions);
+  new Swiper('.stairs-swiper', swiperOptions);
+  new Swiper('.grills-swiper', swiperOptions);
+</script>
+
+<button id="backToTop" title="Back to Top">&#8679;</button>
+
+</body>
+</html>
